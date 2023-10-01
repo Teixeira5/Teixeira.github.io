@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+li, a {
+    font-family: "open sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7e7e7ef5;
+    text-decoration: none;
+}
+
+button {
+    font-family: "open sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fffffff5;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+img {
+    max-width: 150px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgba(84, 175, 198, 0.8);
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(146, 147, 147);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(84, 175, 198, 0.8);
+}
+
+.banner {
+    background-color: rgba(84, 175, 198, 0.8);
+    background-image: url("../imagines/IMG_1200.jpg"), url("../imagines/IMG_1212.jpeg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left , right;
+    color: white;
+    align-items: center;
+    padding: 150px 10%;
+    position: relative;
+    isolation: isolate;
+}
+
+.banner::after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgb(128, 151, 150);
+    opacity: .6;
+}
+
+
+h1, p {
+    text-align: center;
+}
+
+.section {
+    background-color: rgba(71, 198, 229, 0.8);
+    display: flex;;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.col  {
+    margin: 20px;
+    display: inline-block;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 50px;
+    width: 20rem;
+}
+
+.sectionP {
+    position: relative;
+    top: 10px;
+    right: 50px;
+    max-width: 50px;
+}
+
+.stats {
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+    color: white;
+}
+
+.nstats {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    font-size: 12px;
+    color: white;
+    display: inline;
+}
+
+.aboutpic {
+    max-width: 450px;
+}
+
+.abouttitle {
+    position: relative;
+    left: 520px;
+    bottom: 370px;
+}
+
+.aboutme {
+    background-color: rgb(240, 240, 240);
+    display: flexbox;
+    height: 450px;
+    min-height: 450px;
+}
+.paragraph {
+    position: relative;
+    left: 260px;
+    bottom: 620px;
+    margin: 270px;
+    font-family: "open sans", sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+.paragraph2 {
+    position: relative;
+    left: 260px;
+    bottom: 870px;
+    margin: 270px;
+    font-family: "open sans", sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+.paragraph3 {
+    position: relative;
+    left: 260px;
+    bottom: 1120px;
+    margin: 270px;
+    font-family: "open sans", sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+.qinfo {
+    position: relative;
+    font-family: "open sans", sans-serif;
+    text-align: center;
+    bottom: 1270px;
+    font-size: 22px;
+
+}
+
+.info {
+    position: relative;
+    text-align: center;
+    bottom: 1250px;
+    left: 280px;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+    width: 400px;
+}
+
+.cta {
+    position: relative;
+    bottom: 1220px;
+    left: 400px;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    bottom: 1125px;
+    max-height: 250px;
+    list-style: none;
+}
+
+h4 {
+    position: relative;
+    bottom: -90px;
+    left: 50px;
+    color: white;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+}
+
+.copyright {
+    color: rgb(210, 210, 210);
+    position: relative;
+    font-size: 10px;
+    font-family: "open sans", sans-serif;
+    top: 100px;
+    right: 350px;
+}
+
+.email {
+    color: rgb(210, 210, 210);
+    position: relative;
+    font-size: 10px;
+    font-family: "open sans", sans-serif;
+    top: 50px;
+    right: 50px;
+}
+
+.tabs {
+    position: relative;
+    left: 600px;
+    color: rgb(210, 210, 210);
+    font-size: 10px;
+    font-family: "open sans", sans-serif;
+}
+
+.network {
+    position: relative;
+    bottom: 85px;
+    left: 750px;
+    color: rgb(210, 210, 210);
+    font-size: 10px;
+    font-family: "open sans", sans-serif;
+}
+
+
+.social {
+    position: relative;
+    bottom: 170px;
+    left: 850px;
+    color: rgb(210, 210, 210);
+    font-size: 10px;
+    font-family: "open sans", sans-serif;
+}
